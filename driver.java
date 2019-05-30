@@ -13,7 +13,7 @@ public class driver{
            
            x = inputOne.nextInt();
            
-           System.out.println("How many collums would you like there to be? ");
+           System.out.println("How many columns would you like there to be? ");
            
            y = inputOne.nextInt();
            if(x > 4 && x <21 && y > 4 && y < 21){

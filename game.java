@@ -62,7 +62,7 @@ public class game{
                System.out.println("Enter the row of bow the of the ship of length " + oneLen);
                tempX = inputOne.nextInt();
                
-               System.out.println("Enter the collum of the bow of the ship of length " + oneLen);
+               System.out.println("Enter the column of the bow of the ship of length " + oneLen);
                tempY = inputOne.nextInt();
                
                System.out.println("Enter the rotation of the ship of " + oneLen + "\n"
@@ -215,14 +215,14 @@ public class game{
         one.printVisibleBoard();
         System.out.println("Enter the row of the ship you want to fire at");
         rInput = input.nextInt();
-        System.out.println("Enter the collum of the ship you want to fire at");
+        System.out.println("Enter the column of the ship you want to fire at");
         cInput = input.nextInt();
         
         while(fire(rInput,cInput,pTwo,two,tOne) == 0){
             fire(rInput,cInput,pTwo,two,tOne);
             System.out.println("Enter the row of the ship you want to fire at");
         rInput = input.nextInt();
-        System.out.println("Enter the collum of the ship you want to fire at");
+        System.out.println("Enter the column of the ship you want to fire at");
         cInput = input.nextInt();
             
         }
@@ -234,14 +234,14 @@ public class game{
         two.printVisibleBoard();
         System.out.println("Enter the row of the ship you want to fire at");
         rInput = input.nextInt();
-        System.out.println("Enter the collum of the ship you want to fire at");
+        System.out.println("Enter the column of the ship you want to fire at");
         cInput = input.nextInt();
         
         while(fire(rInput,cInput,pOne,one,tTwo)==0){
             fire(rInput,cInput,pOne,one,tTwo);
             System.out.println("Enter the row of the ship you want to fire at");
         rInput = input.nextInt();
-        System.out.println("Enter the collum of the ship you want to fire at");
+        System.out.println("Enter the column of the ship you want to fire at");
         cInput = input.nextInt();
             
         }
